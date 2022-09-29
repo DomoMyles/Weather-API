@@ -6,4 +6,4 @@ This application would be a great alternative to mostly any weather website.
 Deployed Link:
 
 Screenshot:
-![alt text](.\Develop\images\picture.JPG)
+![alt text](picture.JPG)
