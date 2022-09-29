@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+
+  <header class="head"> Weather Dashboard </header>
+
+  <p class="container"></p>
+<!--set up the searching function-->
+  <div class="leftMenu" id="jobMenu">
+    <ul id="here">
+      <li><input class="input" type="text" placeholder="Enter Town...">
+        <button class="input" onclick="getInput()">
+          Click Me!!!!!!!
+        </button>
+      </li>
+      <h2>Pick a Town:</h2>
+      </li>
+
+    </ul>
+  </div>
+<!--create where todays weather will be-->
+  <main>
+    <section class="weatherBox">
+      <header>
+        <h1 id="city">Today</h1>
+        <ul><br>
+          <li id="temp">Temp:</li><br>
+          <li id="wind">Wind:</li><br>
+          <li id="humidity">Humidity:</li><br>
+          <li id="UV">UV Index:</li><br>
+        </ul>
+      </header>
+    
+
+
+
+
+    <div id = "tomarrows" class="text-center pt-4">
+<!--Create where the future days will go-->
+      <section class = "merge" >
+      <ul class = "subList"><br>
+        <h1 id="day0" >Date,Date</h1>
+        <li id="temp0">Temp:</li><br>
+        <li id="wind0">Wind:</li><br>
+        <li id="humidity0">Humidity:</li><br>
+        <li id="UV0">UV Index:</li><br>
+      </ul>
+      
+      <ul class = "subList"><br>
+        <h1 id="day1">Date,date</h1>
+        <li id="temp1">Temp:</li><br>
+        <li id="wind1">Wind:</li><br>
+        <li id="humidity1">Humidity:</li><br>
+        <li id="UV1">UV Index:</li><br>
+      </ul>
+      
+      <ul class = "subList"><br>
+        <h1 id="day2">Date,date</h1>
+        <li id="temp2">Temp:</li><br>
+        <li id="wind2">Wind:</li><br>
+        <li id="humidity2">Humidity:</li><br>
+        <li id="UV2">UV Index:</li><br>
+      </ul>
+      
+      <ul class = "subList"><br>
+        <h1 id="day3">Date,date</h1>
+        <li id="temp3">Temp:</li><br>
+        <li id="wind3">Wind:</li><br>
+        <li id="humidity3">Humidity:</li><br>
+        <li id="UV3">UV Index:</li><br>
+      </ul>
+      
+      <ul class = "subList"><br>
+        <h1 id="day4">Date,date</h1>
+        <li id="temp4">Temp:</li><br>
+        <li id="wind4">Wind:</li><br>
+        <li id="humidity4">Humidity:</li><br>
+        <li id="UV4">UV Index:</li><br>
+      </ul>
+
+    </section>
+</section>
+   
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
