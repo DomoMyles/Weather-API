@@ -43,7 +43,7 @@ function reply_click() {
     console.log(ton)
     var citySearch = document.querySelector(".input");
     var cityName = citySearch.value;
-    var latlon = "http://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=20&appid=" + key;
+    var latlon = "https://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=20&appid=" + key;
     fetch(latlon)
         .then(function (response) {
             return response.json();
